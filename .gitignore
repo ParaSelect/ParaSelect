@@ -1,0 +1,34 @@
+# Build products
+/build*/
+*.o
+*.bc
+*.so
+*.a
+*.d
+*.pch
+compile_commands.json
+
+# Generated data and measurements
+/data/
+/results/
+*.bin
+*.ibin
+*.csv
+*.log
+*.npz
+*.ncu-rep
+*.nsys-rep
+
+# Local caches and editor settings
+/.cache/
+/.nv/
+/.vscode/
+/.claude/
+/.agents/
+/.codex/
+__pycache__/
+*.pyc
+
+# Crash dumps
+core
+core.*
